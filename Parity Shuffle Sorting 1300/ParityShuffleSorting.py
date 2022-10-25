@@ -14,9 +14,10 @@ def math(lista):
                         listaDone.append(y)
                         print(y+1 ,y,"\n")
     
-    
-    print("krajna lista: ",*lista)
+
+    #print("krajna lista: ",*lista)
     print("brZamjena",int(len(listaDone)/2))
+    print(int(len(listaDone)/2))
                   
 brTestova=int(input())
 for x in range(brTestova):        
